@@ -7,6 +7,7 @@ import About from "./pages/About";
 import Home from './pages/Home';
 import Login from "./pages/Login";
 import Sing__u from "./pages/Sing__u";
+import Not_404 from "./pages/Not_404";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/login' element={<Login />} />
           <Route path='/singup' element={<Sing__u />} />
+          <Route path='/*' element={<Not_404 />} />
         </Route>
       </Routes>
     </BrowserRouter>

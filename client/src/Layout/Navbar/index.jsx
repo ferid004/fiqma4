@@ -14,8 +14,7 @@ function Navbar() {
                         <NavLink className='navlink' activeClassName='active'  to={'/'}>Home</NavLink>
                         <NavLink className='navlink'  to={'/about'}>About</NavLink>
                         <NavLink className='navlink'  to={'/singup'}>Sing up</NavLink>
-                        <div>ele</div>
-                        <div>ele</div>
+                        
                     </div>
                 </div>
                 <div className="search_and_icon">
